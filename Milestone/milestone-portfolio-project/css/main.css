@@ -1,0 +1,72 @@
+/* Body */
+body {
+  font-family: 'Lato Regular', sans-serif;
+  font-size: 16px;
+  color: #242626;
+}
+
+header, #about, #skills, #work, #contact {
+  height: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: #242626;
+}
+
+/* Grid */
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/* Header Section */
+header {
+  background-color: #7D8787;
+}
+
+header h1 {
+  font-family: 'Raleway Light', sans-serif;
+  font-size: 3rem;
+}
+
+nav ul {
+  font-family: 'Raleway Bold', sans-serif;
+  list-style: none;
+  margin-top: 3.25rem;
+}
+
+nav li {
+  float: left;
+  font-size: 1.5rem;
+  margin: 0 .75rem;
+}
+
+#nav-about {
+  margin-left: 10rem;
+}
+
+header h2 {
+  font-family: 'Lato Light', sans-serif;
+  font-size: 2.25rem;
+  clear: both;
+  padding: 8rem;
+  color: #242626;
+}
+
+header h2 span {
+  font-family: 'Lato Regular', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
