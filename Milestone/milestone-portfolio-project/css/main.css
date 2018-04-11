@@ -14,6 +14,10 @@ a {
   color: #242626;
 }
 
+.allcaps {
+  text-transform: uppercase;
+}
+
 /* Grid */
 .full-width {
   width: 1200px;
@@ -33,28 +37,29 @@ a {
 
 /* Header Section */
 header {
-  background-color: #7D8787;
+  background-color: #BFC8C8;
 }
 
 header h1 {
   font-family: 'Raleway Light', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-top: 3rem;
 }
 
 nav ul {
   font-family: 'Raleway Bold', sans-serif;
   list-style: none;
-  margin-top: 3.25rem;
+  margin-top: 3.5rem;
 }
 
 nav li {
   float: left;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 0 .75rem;
 }
 
 #nav-about {
-  margin-left: 10rem;
+  margin-left: 8rem;
 }
 
 header h2 {
@@ -70,3 +75,27 @@ header h2 span {
   font-weight: 400;
   font-size: 3rem;
 }
+
+/* About Section */
+#about {
+  padding-top: 2rem;
+}
+
+#about h2 {
+  font-size: 1.75rem;
+  margin: 3rem 0 1rem 0;
+}
+
+#about img {
+  max-width: 20rem;
+  padding: 0rem 9rem;
+  margin-top: 2rem;
+}
+
+#about p {
+  font-size: 1.75rem;
+  line-height: 2;
+  margin: 2rem 0;
+}
+
+/* Skills Section */
