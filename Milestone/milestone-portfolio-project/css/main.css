@@ -137,6 +137,7 @@ header h2 span {
   font-size: 1.25rem;
   padding: 0 2rem;
   text-align: center;
+  max-width: 15rem;
 }
 
 #skills .third-width {
